@@ -12,6 +12,7 @@ export class BannerComponent implements OnInit {
   @Input() subtitle: string = '';
   @Input() buttonStyle: string = '';
   @Input() height: number = 0;
+  @Input() hasBg: boolean = false;
 
   constructor() { }
 

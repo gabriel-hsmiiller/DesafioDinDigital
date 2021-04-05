@@ -45,3 +45,30 @@
         }
     }
 }
+
+@media screen and (max-width: 570px) {
+    .phone-preview{
+        top: 0 !important;
+
+        .image-left{
+            margin-left: -100px !important;
+            width: 100%;
+        }
+
+        .image-right{
+            width: 50%;
+        }
+    }
+
+    .cards{
+        h2{
+            font-size: 24px !important;
+            line-height: 36px !important;
+        }
+    }
+
+    .line{
+        width: 90% !important;
+        margin: 50px auto !important;
+    }
+}

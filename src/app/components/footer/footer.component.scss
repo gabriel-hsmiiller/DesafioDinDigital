@@ -41,3 +41,14 @@
         }
     }
 }
+
+@media screen and (max-width: 570px) {
+    .footer{
+        flex-direction: column;
+        padding-top: 50px;
+
+        .logo{
+            display: none !important;
+        }
+    }
+}

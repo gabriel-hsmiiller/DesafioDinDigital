@@ -24,3 +24,11 @@ export class SvgTwitter {
     fillColor = 'rgb(255, 0, 0)';
 }
 
+@Component({
+    selector: 'menu-icon',
+    templateUrl: '../../assets/menu-icon.svg',
+})
+export class SvgMenuIcon {
+    fillColor = 'rgb(255, 0, 0)';
+}
+

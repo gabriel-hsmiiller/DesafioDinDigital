@@ -7,7 +7,7 @@
 }
 
 .header {
-    @include flex(row, 1, space-between);
+    @include flex(row, 1, space-between, center);
 
     .logo{
         @include flex(row, 1, flex-start, center);
@@ -24,6 +24,33 @@
             &.active{
                 color: #fa4a0c;
             }
+        }
+    }
+
+    .side-menu-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .header{
+
+        .logo{
+            padding-left: 25px !important;
+            padding-top: 20px;
+
+            img{
+                height: 50px;
+            }
+        }
+
+        .navigate{
+            display: none !important;
+        }
+
+        .side-menu-icon{
+            display: initial;
+            padding-top: 20px;
         }
     }
 }

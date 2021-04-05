@@ -8,7 +8,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { BodyCardComponent } from './components/body-card/body-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 
-import { SvgFacebook, SvgInstagram, SvgTwitter } from './utils/icon.util';
+import { SvgFacebook, SvgInstagram, SvgMenuIcon, SvgTwitter } from './utils/icon.util';
 
 @NgModule({
   declarations: [
@@ -20,6 +20,7 @@ import { SvgFacebook, SvgInstagram, SvgTwitter } from './utils/icon.util';
     SvgInstagram,
     SvgFacebook,
     SvgTwitter,
+    SvgMenuIcon,
   ],
   imports: [
     BrowserModule,

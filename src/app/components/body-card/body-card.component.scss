@@ -59,3 +59,28 @@
         }
     }
 }
+
+
+@media screen and (max-width: 570px) {
+    .card-body{
+        flex-direction: column-reverse !important;
+        max-width: 100%;
+        margin: 40px auto !important;
+
+        .details{
+            text-align: center !important;
+
+            h2{
+                margin: 40px 0 !important;
+            }
+
+            h4{
+                margin: 0 !important;
+            }
+
+            p{
+                margin: 10px 0 !important;
+            }
+        }
+    }
+}

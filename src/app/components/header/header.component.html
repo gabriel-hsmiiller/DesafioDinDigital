@@ -5,4 +5,7 @@
     <div class="navigate">
         <a *ngFor="let link of links" class="link" [ngClass]="{ 'active' : link.route == activeRoute }">{{ link.label }}</a>
     </div>
+    <div class="side-menu-icon">
+        <menu-icon></menu-icon>
+    </div>
 </div>
