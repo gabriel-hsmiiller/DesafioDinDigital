@@ -1,0 +1,11 @@
+<div class="banner" [style]="{ height: height }">
+    <img [src]="image" class="image">
+    <div class="overlay">
+        <h2>{{ title }}</h2>
+        <p>{{ subtitle }}</p>
+        <div class="buttons">
+            <button [class]="['btn', 'btn-filled', buttonStyle]">Playstore</button>
+            <button [class]="['btn', buttonStyle]">App Store</button>
+        </div>
+    </div>
+</div>

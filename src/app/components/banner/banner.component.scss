@@ -1,0 +1,64 @@
+.banner{
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+    .image{
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .overlay{
+        position: absolute;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        h2{
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 80px;
+            text-align: center;
+            max-width: 60%;
+            margin: {
+                bottom: 27px;
+            };
+        }
+
+        p{
+            font-size: 24px;
+            line-height: 38px;
+            text-align: center;
+        }
+
+        .btn{
+            color: white;
+            border-color: white;
+            border: solid 1px;
+            font-size: 24px;
+            padding: 16px 58px;
+            margin: 0 17px;
+            background-color: transparent;
+
+            &.btn-filled{
+                background-color: #fa4a0c;
+                border-color: #fa4a0c;
+            }
+
+            &.round{
+                border-radius: 56px;
+                margin-bottom: 75px;
+            }
+
+            &.square{
+                border-radius: 16px;
+            }
+        }
+    }
+}
